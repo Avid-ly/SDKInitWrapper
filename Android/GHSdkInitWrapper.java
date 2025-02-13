@@ -41,15 +41,11 @@ public class GHSdkInitWrapper {
 
     private static  final String TAG = "sdkLog";
     //todo 修改tasdk的pid cid
-    private String productId = "123456";
-    private String channelId = "99999";
+    private String productId = "your productId";
+    private String channelId = "your channelId";
 
     //todo 修改appsflyer的sdk key
-    private String afKey = "TXn7cHYP89FXB65xdBvyiL";
-
-    //todo 修改广告的广告位
-    private String msInterPlacementId = "test0001";
-    private String msRWDPlacementId = "test0002";
+    private String afKey = "your afKey";
 
     //todo 修改debug模式，上线前修改成false
     private Boolean debugFlag = true;
