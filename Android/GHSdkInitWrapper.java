@@ -95,13 +95,13 @@ public class GHSdkInitWrapper {
                 googleUmpUtil.gatherConsent(activity, error -> {
                 if (error == null){
                     if (googleUmpUtil.canRequestAds()){
-                        AppsFlyerLib.getInstance().start(context);
-                        initMssdk();
                     }
                 }else {
                     Log.d(TAG, "ump error: "+error);
                 }
                 });
+                AppsFlyerLib.getInstance().start(context);
+                initMssdk();
 
             }
 
